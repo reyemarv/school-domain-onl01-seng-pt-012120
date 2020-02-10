@@ -7,7 +7,7 @@ class School
   end 
   
   def roster
-    grades = {}
+    roster = {}
   end 
   
 end 
