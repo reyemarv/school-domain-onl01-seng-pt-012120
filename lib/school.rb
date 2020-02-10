@@ -15,7 +15,7 @@ class School
       if roster.include? grade
         roster[:grade] << [name]
       else 
-        roster[:grade] = [name]
+        roster[:grade]
       end
     end 
   end
