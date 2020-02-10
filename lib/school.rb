@@ -11,6 +11,8 @@ class School
   end 
   
   def add_student(name, grade)
-    roster.collect {|name, grade|  
+    roster.collect do |name, grade|
+      if roster.include? grade
+        roster = [
   
 end 
