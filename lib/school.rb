@@ -12,7 +12,7 @@ class School
   
   def add_student(name, grade)
       if roster.include? grade
-        roster.collect do 
+        roster[:grade]
   end
   
 end 
