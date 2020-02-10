@@ -10,12 +10,8 @@ class School
     roster = {}
   end 
   
-  def add_student(name, grade)
-      if roster.include? grade
-        roster[grade] << name 
-      else 
-        roster = [grade]<< name.map{|name| name}
-      end 
+  def add_student(name)
+    roster << name
   end
   
 end 
