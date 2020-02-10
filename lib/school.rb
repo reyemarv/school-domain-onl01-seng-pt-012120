@@ -20,4 +20,5 @@ class School
     new_roster = {}
     @roster.each {|grade, names| new_roster[grade] = names.sort}
   end 
+  new_roster
 end 
