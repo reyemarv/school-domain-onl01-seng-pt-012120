@@ -1,9 +1,9 @@
 class School
   
-  attr_accessor :name 
+  attr_accessor :school, :
   
-  def initialize(name)
-    @name = name
+  def initialize(school)
+    @school = school
   end 
   
 end 
