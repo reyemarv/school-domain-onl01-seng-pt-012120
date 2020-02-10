@@ -14,7 +14,7 @@ class School
       if roster.include? grade
         roster[grade] << name 
       else 
-        roster = [grade]<< name.collect {|name| name}
+        roster = [grade]<< name.map{|name| name}
       end 
   end
   
